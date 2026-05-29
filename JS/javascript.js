@@ -83,7 +83,7 @@ backToTopBtn.addEventListener("click", () => {
 // ==========================================================================
 // 5. INICIALIZACIÓN DE CLIENTE SUPABASE
 // ==========================================================================
-const SUPABASE_URL = "https://ilbitlztwmlxcadwkqsg.supabase.co/rest/v1/"; 
+const SUPABASE_URL = "https://ilbitlztwmlxcadwkqsg.supabase.co"; 
 const SUPABASE_KEY = "sb_publishable_YhjsYIfCcRxJOQRll1rK0A_s9Y3gSR9"; 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY); 
 
