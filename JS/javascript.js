@@ -107,10 +107,10 @@ form.addEventListener("submit", async function(e){
     document.getElementById("nombre_completo").value;
 
   const telefono =
-    document.getElementById("telefono").value;
+    document.getElementById("teléfono").value;
 
   const direccion_entrega =
-    document.getElementById("direccion_entrega").value;
+    document.getElementById("dirección_entrega").value;
 
   const tipo_evento =
     document.getElementById("tipo_evento").value;
