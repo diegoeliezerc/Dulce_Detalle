@@ -128,7 +128,7 @@ form.addEventListener("submit", async function(e){
     document.getElementById("fecha_evento").value;
 
   const descripcion =
-    document.getElementById("descripcion").value;
+    document.getElementById("descripción").value;
 
   /* INSERTAR EN SUPABASE */
 
@@ -137,14 +137,14 @@ form.addEventListener("submit", async function(e){
     .insert([
       {
         nombre_completo,
-        telefono,
-        direccion_entrega,
+        teléfono,
+        dirección_entrega,
         tipo_evento,
         tematica_pastel,
         sabor,
         peso,
         fecha_evento,
-        descripcion
+        descripción
       }
     ]);
 
